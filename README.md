@@ -2,7 +2,7 @@
 
 **让阅读，回归纯粹。** · *A quieter place to read.*
 
-知墨是一款面向 iPhone、iPad 和 Mac 的电子书阅读与书库管理应用。
+知墨是一款面向 iPhone 与 iPad 的电子书阅读与书库管理应用。
 从整理自己的藏书，到沉浸在每一页文字中，希望让阅读成为一件自在、专注的事。
 
 **[访问知墨官网](https://zzhdong.github.io/Zhimor/)** · **App Store：即将上线**（正式上架后开放下载）
@@ -35,7 +35,7 @@
 
 **Zhimor — A quieter place to read.**
 
-Zhimor is an ebook reader and personal library app for iPhone, iPad and Mac.
+Zhimor is an ebook reader and personal library app for iPhone and iPad.
 It gives your books a considered space and keeps the experience focused on reading.
 
 **[Official website](https://zzhdong.github.io/Zhimor/)** · **App Store: Coming soon** (download available after release)
