@@ -5,6 +5,14 @@
 知墨是一款面向 iPhone、iPad 和 Mac 的电子书阅读与书库管理应用。
 从整理自己的藏书，到沉浸在每一页文字中，希望让阅读成为一件自在、专注的事。
 
+<p align="center">
+  <img src="assets/reader.jpg" width="200" alt="知墨 iPhone 正文阅读界面">
+  &nbsp;&nbsp;
+  <img src="assets/insights.jpg" width="200" alt="知墨 iPhone 阅读统计界面">
+  &nbsp;&nbsp;
+  <img src="assets/tablet.jpg" width="200" alt="知墨 iPad 阅读界面">
+</p>
+
 ### 为阅读而设计
 
 - **一座书架，多种格式** — 导入并整理电子书、文本、PDF 和漫画，按自己的方式管理阅读内容。
