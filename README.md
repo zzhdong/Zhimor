@@ -11,7 +11,7 @@
 ## 产品功能
 
 - 多格式本地阅读：支持 TXT、EPUB、MOBI、PDF、DOCX、Markdown、漫画等文件；不同格式采用不同的解析或转换方式。
-- 阅读体验：字体、排版、主题、书签、笔记、进度和阅读统计。
+- 阅读体验：可视化自定义章节标题、双排和传统竖排文字、字体、阅读主题、书签、笔记及阅读统计。
 - 自主连接：系统文件导入、局域网 Wi-Fi 传书及可选的网络存储服务。
 - 数据管理：可选 iCloud 同步、独立备份与恢复。
 - 一次性付费下载；当前版本无订阅、App 内购买或广告，无需知墨账号。
@@ -29,7 +29,7 @@ A multi-format ebook reader and personal library for iPhone and iPad. Import you
 **[Official website](https://zzhdong.github.io/Zhimor/en/)** · **[App Store](https://apps.apple.com/app/id6791544431)** · **[User guides](https://zzhdong.github.io/Zhimor/en/guides/)**
 
 - Read TXT, EPUB, MOBI, PDF, DOCX, Markdown, comics and other supported files; processing methods vary.
-- Personalise typography, themes, bookmarks, notes and reading insights.
+- Personalise chapter headings in a visual designer; choose two-column or vertical text layouts, typography, themes, bookmarks, notes and reading insights.
 - Import through Files or local Wi-Fi; optionally connect supported network storage.
 - Optional iCloud sync and separate backup and restore tools.
 - One-time paid download, no subscriptions, in-app purchases, ads or required Zhimor account.
