@@ -245,6 +245,27 @@ p { margin:0 }
 .workflow-node h2{font:650 24px/1.4 var(--serif);margin:12px 0 5px}
 .workflow-node p{font-size:14px;color:var(--muted)}
 .guide-visual-section .section-block.visual-reading,.guide-visual-section .section-block.gallery-section{padding-top:36px}
+/* Distinct home composition: one real iPad reading spotlight, not a feature-page clone. */
+.home-principles{padding-top:78px}
+.home-next-section{padding-top:78px;padding-bottom:98px}
+.home-next-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.home-next-card{display:flex;flex-direction:column;align-items:flex-start;min-height:285px;padding:35px 38px;border-radius:22px;text-decoration:none;border:1px solid var(--line);background:#e9ede3;color:var(--ink);transition:transform .2s,box-shadow .2s}
+.home-next-card:nth-child(2){background:#23483b;color:#fffdf7;border-color:#23483b}
+.home-next-card:nth-child(2) h3{color:#fffdf7}
+.home-next-card:nth-child(2) p{color:#e4ede3}
+.home-next-card:nth-child(2) .eyebrow{color:#e8c795}
+.home-next-card h3{font-size:clamp(26px,2.8vw,36px);margin:20px 0 9px}
+.home-next-card p{font-size:15px;line-height:1.85;color:var(--muted);max-width:390px}
+.home-next-action{margin-top:auto;padding-top:24px;font-weight:750;font-size:14px;border-bottom:1px solid currentColor}
+.home-next-card:hover{transform:translateY(-3px);box-shadow:var(--shadow);color:var(--ink)}
+.home-next-card:nth-child(2):hover{color:white}
+.image-panel .image-copy .text-link{display:inline-block;margin-top:23px}
+/* A real back button, visible before any guide workflow/illustration. */
+.guide-return-strip{display:flex;align-items:center;justify-content:space-between;gap:18px;margin:25px auto 2px}
+.guide-back-button{display:inline-flex;align-items:center;gap:15px;min-height:56px;padding:9px 23px 9px 10px;border-radius:14px;background:var(--dark);color:#fffdf7;font:750 16px/1.35 var(--sans);text-decoration:none;box-shadow:0 9px 23px rgba(30,69,57,.16);transition:background-color .2s,transform .2s}
+.guide-back-button:hover{background:#2e5b4c;color:#fff;transform:translateY(-1px)}
+.guide-back-arrow{display:grid;place-items:center;width:38px;height:38px;flex-shrink:0;background:rgba(255,255,255,.15);border-radius:10px;font-size:23px;line-height:1}
+.guide-return-context{color:var(--muted);font-size:13px;letter-spacing:.02em}
 .journey{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));margin:44px auto 0;padding:0;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--paper)}
 .journey a{display:flex;align-items:center;gap:14px;padding:20px 18px;border-right:1px solid var(--line);text-decoration:none;min-width:0}
 .journey a:last-child{border:0}.journey a>span:first-child{font-size:12px;color:var(--gold);font-weight:750}
@@ -282,11 +303,6 @@ p { margin:0 }
 .screen-story-copy{padding:27px 28px 31px;flex:1}.screen-story-copy .eyebrow{font-size:10px}
 .screen-story-copy h3{font-size:25px;margin:8px 0 11px}.screen-story-copy p{font-size:14px;color:var(--muted);margin-bottom:19px}
 .screen-story-copy .text-link{display:inline-block}
-.feature-shortcuts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
-.feature-shortcut{position:relative;display:block;background:#fffdf7;border:1px solid var(--line);border-radius:17px;text-decoration:none;padding:27px 29px;min-height:180px;color:var(--ink)}
-.feature-shortcut:hover{color:var(--ink);background:#edf2e8;border-color:#b7c8b7}
-.feature-shortcut-symbol{font:750 12px/1.1 var(--sans);color:var(--gold)}.feature-shortcut h3{font-size:23px;margin:18px 0 8px}
-.feature-shortcut p{font-size:14px;color:var(--muted)}.shortcut-arrow{position:absolute;top:21px;right:27px;color:var(--gold);font-size:22px}
 .catalog-section .detail-grid{margin:32px 0 0;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .catalog-section .feature-detail{padding:30px;min-height:215px;display:flex;flex-direction:column}
 .catalog-section .feature-detail h2{font-size:25px;margin:18px 0 9px}
@@ -325,6 +341,13 @@ p { margin:0 }
  .guided-steps{grid-template-columns:1fr}.guided-step{min-height:0;flex-direction:row;gap:20px}.guided-step .step-number{flex-shrink:0}
 }
 @media(max-width:720px){
+ .home-next-grid{grid-template-columns:1fr}
+ .home-next-card{min-height:215px;padding:28px}
+ .home-next-section{padding-bottom:70px}
+ .home-principles{padding-top:62px}
+ .guide-return-strip{margin:17px auto 4px}
+ .guide-back-button{width:100%;min-height:54px}
+ .guide-return-context{display:none}
  .workflow-section{margin:25px auto}
  .workflow-track{grid-template-columns:1fr;padding:11px}
  .workflow-node{min-height:115px;padding:20px 24px}
@@ -347,6 +370,8 @@ p { margin:0 }
  .guide-directory{padding-bottom:30px}
 }
 @media(max-width:440px){
+ .guide-back-button{font-size:15px;padding-right:18px}
+ .home-next-card{min-height:205px;padding:25px}
  .journey a{padding:12px 3px}.journey strong{font-size:11px}
  .visual-feature{padding:12px!important}.visual-feature-meta{padding:6px 8px 12px;align-items:start}
  .diagram-legend{max-width:135px}
