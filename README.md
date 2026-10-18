@@ -2,32 +2,21 @@
 
 **让阅读，回归纯粹。** · *A quieter place to read.*
 
-知墨是一款面向 iPhone 与 iPad 的电子书阅读与书库管理应用。
-从整理自己的藏书，到沉浸在每一页文字中，希望让阅读成为一件自在、专注的事。
+知墨是适用于 iPhone 与 iPad 的多格式电子书阅读器与个人书库。导入、整理和阅读自己的书，按需选择网络存储或 iCloud。
 
-**[访问知墨官网](https://zzhdong.github.io/Zhimor/)** · **App Store：即将上线**（正式上架后开放下载）
+**[知墨官网](https://zzhdong.github.io/Zhimor/)** · **[App Store](https://apps.apple.com/app/id6791544431)** · **[使用指南](https://zzhdong.github.io/Zhimor/guides/)**
 
-<p align="center">
-  <a href="https://zzhdong.github.io/Zhimor/"><img src="assets/readme-banner.jpg" alt="知墨 · 阅读产品宣传横幅" width="100%"></a>
-</p>
+<p align="center"><a href="https://zzhdong.github.io/Zhimor/"><img src="assets/readme-banner.jpg" alt="知墨阅读产品宣传横幅" width="100%"></a></p>
 
-### 为阅读而设计
+## 产品功能
 
-- **一座书架，多种格式** — 导入并整理电子书、文本、PDF 和漫画，按自己的方式管理阅读内容。
-- **舒适的阅读体验** — 调整字体、主题、布局和翻页方式，找到适合自己的阅读节奏。
-- **留下阅读足迹** — 通过阅读进度和统计，回顾读过的书与投入的时间。
-- **本地优先，云端可选** — 本地阅读无需注册知墨账号；有需要时可使用 iCloud 同步或连接支持的网络存储服务。
+- 多格式本地阅读：支持 TXT、EPUB、MOBI、PDF、DOCX、Markdown、漫画等文件；不同格式采用不同的解析或转换方式。
+- 阅读体验：字体、排版、主题、书签、笔记、进度和阅读统计。
+- 自主连接：系统文件导入、局域网 Wi-Fi 传书及可选的网络存储服务。
+- 数据管理：可选 iCloud 同步、独立备份与恢复。
+- 一次性付费下载；当前版本无订阅、App 内购买或广告，无需知墨账号。
 
-### 隐私与选择
-
-知墨不投放广告，也不进行跨应用或跨网站追踪。
-本地阅读数据由你管理；使用 iCloud 或第三方网络服务属于可选操作，具体数据处理说明请参阅 **[隐私政策](https://zzhdong.github.io/Zhimor/privacy/)**。
-
-### 支持与反馈
-
-如遇到书籍导入、阅读排版、同步或云盘连接方面的问题，请发送邮件至
-**[zzhdong@gmail.com](mailto:zzhdong@gmail.com)**，也可访问 **[技术支持](https://zzhdong.github.io/Zhimor/support/)**。
-建议附上设备型号、系统版本和问题复现步骤；请勿发送密码、访问令牌或私人书籍内容。
+**[隐私政策](https://zzhdong.github.io/Zhimor/privacy/)** · **[技术支持](https://zzhdong.github.io/Zhimor/support/)** · **[开发者邮箱](mailto:zzhdong@gmail.com)**
 
 ---
 
@@ -35,31 +24,16 @@
 
 **Zhimor — A quieter place to read.**
 
-Zhimor is an ebook reader and personal library app for iPhone and iPad.
-It gives your books a considered space and keeps the experience focused on reading.
+A multi-format ebook reader and personal library for iPhone and iPad. Import your books, customise the reading experience, and choose optional network storage or iCloud.
 
-**[Official website](https://zzhdong.github.io/Zhimor/)** · **App Store: Coming soon** (download available after release)
+**[Official website](https://zzhdong.github.io/Zhimor/en/)** · **[App Store](https://apps.apple.com/app/id6791544431)** · **[User guides](https://zzhdong.github.io/Zhimor/en/guides/)**
 
-### Made for your reading life
+- Read TXT, EPUB, MOBI, PDF, DOCX, Markdown, comics and other supported files; processing methods vary.
+- Personalise typography, themes, bookmarks, notes and reading insights.
+- Import through Files or local Wi-Fi; optionally connect supported network storage.
+- Optional iCloud sync and separate backup and restore tools.
+- One-time paid download, no subscriptions, in-app purchases, ads or required Zhimor account.
 
-- **One library, many formats** — Import and organise ebooks, text documents, PDFs and comics.
-- **A reading space of your own** — Personalise typography, themes, layouts and page-turning.
-- **Your reading journey** — Follow your progress and revisit your reading statistics.
-- **Local first, cloud optional** — Read locally without a Zhimor account; choose iCloud syncing or supported network storage when you need it.
-
-### Privacy and choice
-
-Zhimor has no ads and does not track you across apps or websites.
-Local reading works without a Zhimor account. iCloud and third-party network services are optional.
-Read the **[Privacy Policy](https://zzhdong.github.io/Zhimor/en/privacy/)** for details on how data is stored and managed.
-
-### Support
-
-For help with imports, reading layouts, sync or cloud connections, email
-**[zzhdong@gmail.com](mailto:zzhdong@gmail.com)** or visit **[Support](https://zzhdong.github.io/Zhimor/en/support/)**.
-Include your device, OS version and steps to reproduce the issue where possible.
-Please do not send passwords, access tokens or private book contents.
-
----
+**[Privacy policy](https://zzhdong.github.io/Zhimor/en/privacy/)** · **[Support](https://zzhdong.github.io/Zhimor/en/support/)** · **[Email](mailto:zzhdong@gmail.com)**
 
 © 2026 Zhimor

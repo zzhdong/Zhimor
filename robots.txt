@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://zzhdong.github.io/Zhimor/sitemap.xml
